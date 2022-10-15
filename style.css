@@ -1,0 +1,201 @@
+body{
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+	background-color: #313438;
+}
+
+.container{
+	max-width: 456px;
+	margin: 0 auto;
+	background-color: #313438;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+	background: linear-gradient(90deg, rgba(240,131,5,100) 0%, rgba(154,173,89,1) 100%);
+	padding: 2em 0;
+	bottom: 2em;
+	align-items: center;
+}
+
+.add-contact{
+  	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
+}
+
+.names{
+	padding-left: 2em;
+	padding-right: 2em;
+	display: flex;
+}
+
+.contact-info{
+	color: #555;
+  	padding: 5px;
+  	margin: 2px;
+  	border-radius: 5px;
+  	background: whitesmoke;
+  	border: none;
+}
+
+.Save-Cancel{
+	display: flex;
+	align-items: center;
+}
+
+.Save-Cancel-buttons{
+	color: #555;
+  	padding: 5px;
+  	margin: 2px;
+  	border-radius: 5px;
+  	background: whitesmoke;
+  	border: none;
+}
+
+.search-bar{
+	color: #555;
+  	display: flex;
+  	padding: 2px;
+  	border-radius: 5px;
+  	background: whitesmoke;
+  	justify-content: space-between;
+}
+
+input[type="search"] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+button[type="button"] {
+  color: darkred;
+  overflow: hidden;
+  width: 80px;
+  height: 30px;
+  padding: 0;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  /*background: transparent;*/
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="button"]:hover {
+  opacity: 1;
+}
+
+.table-striped{
+	padding: 2em;
+	color: whitesmoke;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.table-body{
+	color: white;
+}
+
+.contact-search{
+	font-size: 1.2em;
+	padding:.3em .3em;
+	border-radius: 100px;
+	border:1px solid white;
+	outline: none;
+}
+
+
+.contacts-library{	
+	background: #313438;
+	padding: 2em;
+}
+
+.add{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+i{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.contact-name{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+hr{
+	border: 1px solicontactd #494a4b;
+}
+
+.list__item{
+	list-style: none;
+}
+
+.relationship{
+	color: #fff;
+	width: 6em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	background-color: #75A85E;
+}
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+}
+
+.contact-section:hover{
+	background-color: #48494a;
+}
+
+.text{
+	padding-left: 1em;
+}
